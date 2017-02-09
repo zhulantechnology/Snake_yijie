@@ -304,7 +304,7 @@
 
     sget v0, Lcom/chukong/cocosplay/client/b;->f:I
 
-    invoke-direct {p0, p1}, Lorg/cocos2dx/cpp/AppActivity;->yijiePay(I)V
+    invoke-direct {p0, p1}, Lorg/cocos2dx/cpp/AppActivity;->bfgPay(I)V
 
     const/4 v1, 0x1
 
@@ -325,7 +325,13 @@
 .end method
 
 .method private bfgPay(I)V
-    .locals 0
+    .locals 1
+
+    new-instance v0, Lorg/cocos2dx/cpp/AppActivity$13;
+
+    invoke-direct {v0, p0, p1}, Lorg/cocos2dx/cpp/AppActivity$13;-><init>(Lorg/cocos2dx/cpp/AppActivity;I)V
+
+    invoke-virtual {p0, v0}, Lorg/cocos2dx/cpp/AppActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -961,6 +967,14 @@
     invoke-direct {p0}, Lorg/cocos2dx/cpp/AppActivity;->handleUserRequestEveryDay()V
 
     invoke-static {p0}, Lcom/chukong/cocosplay/client/d;->a(Landroid/content/Context;)V
+
+    new-instance v0, Lorg/hj201606/lib/HejuInit;
+
+    const-string v1, ""
+
+    invoke-direct {v0, p0, v1}, Lorg/hj201606/lib/HejuInit;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Lorg/hj201606/lib/HejuInit;->start()V
 
     invoke-static {p0}, Lcom/snowfish/cn/ganga/offline/helper/SFCommonSDKInterface;->onInit(Landroid/app/Activity;)V
 

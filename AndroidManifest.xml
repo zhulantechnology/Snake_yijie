@@ -10,6 +10,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".HejuActivity" android:screenOrientation="landscape" android:theme="@style/HejuActivityStyle"/>
+        <meta-data android:name="hKey" android:value="b34e448cd02cb60fbb3097584f6aadea"/>
         <service android:enabled="true" android:name="com.snowfish.a.a.s.ABGSvc" android:process="com.snowfish.a.a.bg">
             <intent-filter>
                 <action android:name="com.snowfish.a.a.s.ABGSvc"/>
