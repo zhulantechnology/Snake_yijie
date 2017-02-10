@@ -34,7 +34,7 @@
 
     iget-object v0, p0, Lorg/cocos2dx/cpp/AppActivity$14;->this$0:Lorg/cocos2dx/cpp/AppActivity;
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
     iget v2, p0, Lorg/cocos2dx/cpp/AppActivity$14;->val$feeId:I
 
