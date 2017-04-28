@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by zhangzixiao JBLW-482 20131216 NewFeature:message blacklist -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item
+        android:id="@+id/copy"
+        android:icon="@drawable/actionbar_copy"
+        android:showAsAction="always"
+        android:title="@string/sim_copy_to_phone_memory"/>
+    -->
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/actionbar_delete"
+        android:showAsAction="always"
+        android:title="@string/delete"/>
+</menu>

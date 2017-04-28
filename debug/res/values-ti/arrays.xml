@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="default_smiley_names">
+<item>ሕጉስ</item>
+<item>ምሕዛን</item>
+<item>ምጥቃስ</item>
+<item>መልሓስ ንደገ ምውፃእ</item>
+<item>ዝገርም</item>
+<item>ምስዓም</item>
+<item>ምእዋይ</item>
+<item>ዝሑል</item>
+<item>ገንዘብ ኣፍ</item>
+<item>እግሪ ኣብ ኣፍ</item>
+<item>ዝሕፍር</item>
+<item>መልኣክ</item>
+<item>ዘይተወሰነ</item>
+<item>ምብኻይ</item>
+<item>ዝተዓሸገ ከንፈር</item>
+<item>ምስሐቅ</item>
+<item>ምድንጋር</item>
+<item>ልቢ</item>
+<item>ምንዳድ</item>
+<item>ፍሽኽ ኢሉ</item>
+<item>ስሚዒት ዘይብሉ ገፅ</item>
+</string-array>
+<string-array name="empty_subject_strings">
+<item>ዋኒን የለን</item>
+</string-array>
+</resources>

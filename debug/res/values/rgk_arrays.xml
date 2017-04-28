@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--Add, Mms-SmsEncoding7Bit  Start-->
+    <string-array name="pref_encoding_choices">
+        <item>@string/pref_encoding_automatic</item>
+        <item>@string/pref_encoding_7bit</item>
+    </string-array>
+    <string-array name="pref_encoding_values"  translatable="false">
+        <item>Automatic</item>
+        <item>7bit</item>
+    </string-array>
+    <!--Add, Mms-SmsEncoding7Bit  End-->
+</resources>

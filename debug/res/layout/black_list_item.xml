@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by zhangzixiao JBLW-482 20131216 NewFeature:message blacklist -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/listitem_background_blue">
+    
+    <QuickContactBadge
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/blacklist_photo_width"
+        android:layout_height="@dimen/blacklist_photo_width"
+        android:layout_gravity="top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_contact_picture" />
+    
+    <TextView 
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+	android:paddingRight="8dip"
+	android:paddingLeft="8dip"
+	android:layout_marginRight="6dip"
+        android:textColor="#DD222222"
+	android:textSize="28dip"
+	android:background="@drawable/listitem_background_blue"/>
+
+    <LinearLayout
+	android:id="@+id/m_linearlayout" 
+	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_toLeftOf="@id/count"
+        android:layout_centerVertical="true"
+	android:orientation="vertical">
+	
+	<TextView 
+            android:id="@+id/number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	    android:layout_marginTop="2dip"
+	    android:layout_marginBottom="2dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+	    android:textSize="18dip"
+	    android:textColor="#FF111111"/>
+	<TextView 
+            android:id="@+id/sub_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	    android:layout_marginBottom="2dip"
+            android:layout_toRightOf="@id/avatar"
+            android:layout_toLeftOf="@id/count"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:ellipsize="end"
+	    android:textSize="14dip"
+	    android:textColor="#FF111111"/>
+
+    </LinearLayout>
+
+    <!-- 
+    <TextView 
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_toLeftOf="@id/count"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:ellipsize="end"
+	android:textSize="24dip"
+	android:textColor="#FF111111"/>
+    -->
+    
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="default_smiley_names">
+<item>Gammachu</item>
+<item>Gaadu</item>
+<item>Seequ</item>
+<item>Arraba baasuu</item>
+<item>Dinqamuu</item>
+<item>Dhungachuu</item>
+<item>Iyyuu</item>
+<item>Suuta</item>
+<item>Afaan maallaqaa</item>
+<item>Miila afaan keessa ka\'u</item>
+<item>Qan\'uu</item>
+<item>Ergamaa</item>
+<item>Kan hin murtoofne</item>
+<item>Boo\'icha</item>
+<item>Afaani cufamera</item>
+<item>Kolfu</item>
+<item>Burjaaja\'uu</item>
+<item>Onnee</item>
+<item>Aruu</item>
+<item>Kolfa icciittii</item>
+<item>Fuula fakkesitu</item>
+</string-array>
+<string-array name="empty_subject_strings">
+<item>Dhimma hin qabu</item>
+</string-array>
+</resources>

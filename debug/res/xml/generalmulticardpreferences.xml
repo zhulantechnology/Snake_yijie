@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+        /* * Copyright (C) 2007-2008 Esmertec AG. * Copyright (C) 2007-2008 The
+        Android Open Source Project * * Licensed under the Apache License,
+        Version 2.0 (the "License"); * you may not use this file except in
+        compliance with the License. * You may obtain a copy of the License at *
+        * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by
+        applicable law or agreed to in writing, software * distributed under the
+        License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES OR
+        CONDITIONS OF ANY KIND, either express or implied. * See the License for
+        the specific language governing permissions and * limitations under the
+        License. */
+    -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_display_preference_settings"
+        android:key="pref_key_display_preference_settings">
+        <Preference android:key="pref_key_chat_wallpaper"
+            android:title="@string/pref_chat_wallpaper" />
+        <Preference android:key="pref_key_message_font_size"
+            android:title="@string/pref_title_message_font_size"
+            android:summary="@string/pref_summary_message_font_size" />
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="pref_key_auto_rotation" android:title="@string/pref_auto_rotation" />
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="pref_key_show_email_address" android:title="@string/pref_show_email_address"
+            android:summary="@string/pref_summary_show_email_address" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_sms_storage_title"
+        android:key="pref_key_storage_settings">
+        <CheckBoxPreference android:defaultValue="false"
+            android:key="pref_key_auto_delete" android:summary="@string/pref_summary_auto_delete"
+            android:title="@string/pref_title_auto_delete" />
+        <Preference android:layout="?android:attr/preferenceLayoutChild"
+            android:key="pref_key_sms_delete_limit"
+            android:dependency="pref_key_auto_delete" android:persistent="false"
+            android:summary="@string/pref_summary_delete_limit" android:title="@string/pref_title_sms_delete" />
+        <Preference android:layout="?android:attr/preferenceLayoutChild"
+            android:key="pref_key_mms_delete_limit"
+            android:dependency="pref_key_auto_delete" android:persistent="false"
+            android:summary="@string/pref_summary_delete_limit" android:title="@string/pref_title_mms_delete" />
+    </PreferenceCategory>
+    <!-- add JBLW-482 zhangzixiao 20131216 start -->
+    <PreferenceCategory android:title="@string/pref_blacklist_title"
+        android:key="pref_key_blacklist_settings" >
+	<Preference android:key="pref_key_blacklist"
+	    android:summary="@string/pref_summary_blacklist"
+	    android:title="@string/pref_title_balcklist" />
+    </PreferenceCategory>
+    <!-- add JBLW-482 zhangzixiao 20131216 end -->
+    <!-- begin add by zhangyuwen for JWLWKK-126 20140326 -->
+    <PreferenceCategory android:title="@string/pref_sms_signature_title"
+        android:key="pref_key_sms_signature" >
+    	<CheckBoxPreference android:key="pref_key_enable_signature"
+            android:summaryOn="@string/pref_summary_enable_signature"
+            android:summaryOff="@string/pref_summary_disable_signature"
+            android:title="@string/pref_title_enable_signature" />
+    	<EditTextPreference android:key="pref_key_edit_signature"
+            android:title="@string/pref_title_edit_signature"
+            android:maxLength="64"
+            android:textColor="@android:color/black"
+	    android:dependency="pref_key_enable_signature" />
+    </PreferenceCategory>
+    <!-- begin add by zhangyuwen for JWLWKK-126 20140326 -->
+    	<!--add JWYYL-83 chenshu 20141215 start-->
+	<PreferenceCategory android:title="@string/pref_encryption_settings_title"
+        android:key="pref_key_encryption_settings" >
+    	<CheckBoxPreference android:key="pref_key_enable_encrytpion"
+            android:summaryOn="@string/pref_summary_enable_encrytpion"
+            android:summaryOff="@string/pref_summary_disable_encrytpion"
+			android:title="@string/pref_title_enable_encrytpion" />
+    	<Preference android:key="pref_key_edit_encrytpion"
+            android:title="@string/pref_title_edit_encrytpion"
+	    	android:dependency="pref_key_enable_encrytpion" />
+    </PreferenceCategory>
+	<!--add JWYYL-83 chenshu 20141215 end-->
+    <PreferenceCategory android:title="@string/pref_title_backup_restore_settings"
+        android:key="pref_key_backup_restore_settings">
+        <Preference android:key="pref_key_backup_message"
+            android:title="@string/pref_backage_message" android:summary="@string/pref_summary_backup_message"
+            android:persistent="false">
+        </Preference>
+        <Preference android:key="pref_key_restore_message"
+            android:title="@string/pref_restore_message" android:summary="@string/pref_summary_restore_message"
+            android:persistent="false">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cell_broadcast_title">
+        <Preference android:key="pref_key_cell_broadcast"
+            android:title="@string/cell_broadcast" android:summary="@string/cell_broadcast_settings"
+            android:persistent="false">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_wappush_settings"
+        android:key="pref_key_wappush_settings">
+        <CheckBoxPreference android:defaultValue="@bool/default_enable_wappush"
+            android:key="pref_key_wappush_enable" android:summary="@string/pref_summary_wappush_enable"
+            android:title="@string/pref_title_wappush_enable" />
+        <CheckBoxPreference android:defaultValue="false"
+            android:key="pref_key_wappush_sl_autoloading" android:dependency="pref_key_wappush_enable"
+            android:summary="@string/pref_summary_wappush_sl_autoloading"
+            android:title="@string/pref_title_wappush_sl_autoloading" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_long_press_operation_guide"
+                      android:key="pref_key_long_press_operation_guide" >
+    <Preference android:key="pref_key_watch_animation"
+                      android:title="@string/pref_title_watch_animation" />            
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+

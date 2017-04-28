@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="pref_mms_creation_mode_choices">
+<item>የተገደበ ሁነታ</item>
+<item>የማስጠንቀቂያ ሁነታ</item>
+<item>ነፃ ሁነታ</item>
+</string-array>
+<string-array name="default_quick_texts">
+<item>የት ነዎት?</item>
+<item>ምን እየሰሩ ነው?</item>
+<item>መልሰው ይደውሉ! እባክዎ!</item>
+<item>ይቅርታ፣ አሁን ስብሰባ አለብኝ</item>
+<item>በቅርቡ እደውልልሃለሁ</item>
+<item>አትጨነቅ! እኔ ደህና ነኝ</item>
+<item>ወደ ቤት እየሄድኩ ነው</item>
+<item>አሁኑኑ እደርሳለሁ</item>
+<item>እዛ እደርሳለሁ ወይም ጥፋተኛ እሆናለሁ!</item>
+</string-array>
+<string-array name="pref_key_mms_priority_choices">
+<item>"ከፍተኛ"</item>
+<item>"መደበኛ"</item>
+<item>"ዝቅተኛ"</item>
+</string-array>
+<string-array name="pref_sms_save_location_choices">
+<item>"ስልክ"</item>
+<item>ሲም ካርድ</item>
+</string-array>
+<string-array name="pref_tablet_sms_save_location_choices">
+<item>"መሣሪያ"</item>
+<item>ሲም ካርድ</item>
+</string-array>
+<string-array name="pref_sms_input_mode_choice">
+<item>GSM ፊደል</item>
+<item>ዩኒኮድ</item>
+<item>"ራስ ሰር"</item>
+</string-array>
+<string-array name="pref_message_font_size_choices">
+<item>የስርአት ፎንት መጠን ተከተል</item>
+<item>"ትንሽ"</item>
+<item>"መካከለኛ"</item>
+<item>"ትልቅ"</item>
+<item>በጣም ትልቅ</item>
+</string-array>
+<string-array name="large_emoticon_name">
+<item>[ማመስገን]</item>
+<item>[ስጦታ]</item>
+<item>[ኮንጉፉ]</item>
+<item>[ሻወር]</item>
+<item>[መፍራት]</item>
+<item>[መታመም]</item>
+<item>[ሃብታም]</item>
+<item>[መብረር]</item>
+<item>[መናደድ]</item>
+<item>[መፍቀድ]</item>
+<item>[መሰልቸት]</item>
+<item>[ማልቀስ]</item>
+<item>[መንዳት]</item>
+<item>[መብላት]</item>
+<item>[ደስተኛ]</item>
+<item>(መያዝ]</item>
+<item>[አመት በአል]</item>
+<item>[ፍቅር]</item>
+<item>[መፀለይ]</item>
+<item>[ግፊት]</item>
+<item>[መዝፈን]</item>
+<item>[መተኛት]</item>
+<item>[ስፖርት]</item>
+<item>[መዋኘት]</item>
+</string-array>
+<string-array name="dynamic_emoticon_name">
+<item>{ደስተኛ}</item>
+<item>{ማጨብጨብ}</item>
+<item>{ፍቅር}</item>
+<item>{በኩራት}</item>
+<item>{ማዘን}</item>
+<item>{ትግስት ማጣት}</item>
+<item>{በጥፊ መምታት}</item>
+<item>{መናደድ}</item>
+<item>{መራገም}</item>
+<item>{ሆኖም}</item>
+<item>{መተሳሰር}</item>
+<item>{ማልቀስ}</item>
+<item>{ተስፋ አስቆራጭ}</item>
+<item>{ንዴት _ በጣም}</item>
+<item>{በአካባቢ}</item>
+<item>{ማለፍ}</item>
+<item>{ማምለክ}</item>
+<item>{ንፁህ}</item>
+<item>{ደህና ሁን}</item>
+<item>{ንፁህ}</item>
+<item>{የሚያስደንቅ}</item>
+<item>{መራብ}</item>
+<item>{መተኛት}</item>
+<item>{ፍላጐቶች}</item>
+</string-array>
+<string-array name="ad_emoticon_name">
+<item>/መምታት/</item>
+<item>/የጐን ትዕይንት/</item>
+<item>/ማልቀስ/</item>
+<item>/ሀሎ/</item>
+<item>/የልብ ትርታ/</item>
+<item>/ማሸለብ/</item>
+<item>/መሳቅ/</item>
+<item>/ትግስት ማጣት/</item>
+<item>/መሮጥ/</item>
+<item>/መራገም/</item>
+<item>/ላብ/</item>
+<item>/መደሰቱን የሚያመለክት/</item>
+<item>/ማስነጠስ/</item>
+<item>/መጨፈር/</item>
+<item>/መናደድ/</item>
+<item>/መዝለል/</item>
+<item>/ማጮለቅ/</item>
+<item>/የጅል አወዳደቅ/</item>
+<item>/መብላት/</item>
+<item>/ክዳን/</item>
+<item>/ማለፍ/</item>
+<item>/ማንቀሳቀስ/</item>
+<item>/ደህና ሁን/</item>
+<item>/አስትሪክሽን/</item>
+</string-array>
+<string-array name="xm_emoticon_name">
+<item>#መጥቀስ#</item>
+<item>#ጥያቄ#</item>
+<item>#ማስታወክ#</item>
+<item>#መጥፎ እድል#</item>
+<item>#መውደድ#</item>
+<item>#ቆንጆ#</item>
+<item>#መፍዘዝ#</item>
+<item>#መድከም#</item>
+<item>#ግራ መጋባት#</item>
+<item>#መሳም#</item>
+<item>#ፍቅር#</item>
+<item>#መራገም#</item>
+<item>#ገንዘብ#</item>
+<item>#መሳቅ#</item>
+<item>#ማልቀስ#</item>
+<item>#መናደድ#</item>
+<item>#መደሰት#</item>
+<item>#መረበሽ#</item>
+<item>#አስፈሪ#</item>
+<item>#መፍዘዝ#</item>
+<item>#ማፈር#</item>
+<item>#መተኛት#</item>
+<item>#መጥፋት#</item>
+<item>#ሀዘን#</item>
+</string-array>
+<string-array name="ct_sms_save_location_array">
+<item>"ስልክ"</item>
+<item>UIM ካርድ</item>
+</string-array>
+</resources>

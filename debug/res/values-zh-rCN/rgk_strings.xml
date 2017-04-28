@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- RGK-Feature Signature -->
+    <string name="pref_sms_signature_title">短信签名</string>
+    <string name="pref_title_enable_signature">短信签名</string>
+    <string name="pref_summary_enable_signature">短信签名已启用</string>
+    <string name="pref_summary_disable_signature">短信签名已禁用</string>
+    <string name="pref_title_edit_signature">编辑短信签名</string>
+    <string name="signature_empty">不能保存空签名！</string>
+    <!-- Modify, JWLW-1141, zhangzixiao, 20131118, Start -->
+    <string name="pref_title_notification_ringtone1">卡1 铃声</string>
+    <string name="pref_summary_notification_ringtone1">为卡1设置新铃声</string>
+    <string name="pref_title_notification_ringtone2">卡2 铃声</string>
+    <string name="pref_summary_notification_ringtone2">为卡2设置新铃声</string>
+    <!--  Modify, JWLW-1141, zhangzixiao, 20131118, End -->
+    
+    <!-- add JWLWKK-1209 zhangzixiao 20140728 start-->
+    <string name="pref_encryption_settings_title">会话加密</string>
+    <string name="pref_summary_enable_encrytpion">开启会话加密</string>
+    <string name="pref_summary_disable_encrytpion">关闭会话加密</string>
+    <string name="pref_title_enable_encrytpion">会话加密</string>
+    <string name="pref_title_edit_encrytpion">编辑密码</string>
+    <string name="edit_pwd">编辑密码</string>
+    <string name="new_pwd">创建密码</string>
+    <string name="next">继续</string>
+    <string name="input_pwd">输入密码</string>
+    <string name="input_old_pwd">输入旧密码</string>
+    <string name="input_new_pwd">输入新密码</string>
+    <string name="input_confirm_pwd">输入确认密码</string>
+    <string name="tip_same_pwd">新密码不能与旧密码相同！</string>
+    <string name="tip_not_same_pwd">确认密码与新密码不相同！</string>
+    <string name="tip_old_pwd_incorrect">旧密码错误！</string>
+    <string name="tip_pwd_incorrect">密码不正确！</string>
+    <string name="tip_pwd_change_success">密码更改成功！</string>
+    <string name="menu_encryption">加密</string>
+    <string name="menu_decryption">解密</string>
+    <string name="encrypt_first">请先加密</string>
+    <string name="encrypt_has_alphabet">密码必须至少包含一个字母!</string>
+    <!-- add JWLWKK-1209 zhangzixiao 20140728 end -->
+    
+    <!--Add, DWYYL-1280, DaiHongyi, 20150616, Start-->
+    <string name="menu_sim_msg">SIM卡信息</string>
+    <!--Add, DWYYL-1280, DaiHongyi, 20150616, End-->
+    <!--Add, Mms-SmsEncoding7Bit Start-->
+    <string name="pref_encoding_automatic">自动适应</string>
+    <string name="pref_encoding_7bit">七比特转换</string>
+    <string name="pref_sms_encoding_title">字符编码</string>
+    <string name="pref_sms_encoding_summary">短信字符编码方式</string>
+    <string name="pref_sms_encoding_dialog_title">字符编码</string>
+    <!--Add, Mms-SmsEncoding7Bit End-->
+    <!-- add JEYS-57 zhangzixiao 20131226 start-->
+    <string name="menu_scheduled_message">定时信息</string>
+    <!-- A: JWYYL-732  guochenlong  20141224 -->
+    <string name="scheduled_msg_back">返回</string>
+    <string name="scheduled_msg_next">下一步</string>
+    <string name="scheduled_msg_finish">完成</string>
+    <!-- add JEYS-57 zhangzixiao 20131226 end-->
+    <!-- add BWLWLLN-50 chengguangshuai 20161102 start-->
+    <string name="scheduled_message_set_time_error">不能选择过去的时间，请重新选择！</string>
+    <!-- A: JBWLWLLN-50 chengguangshuai 20161102 end-->
+    <!--add JBLW-482 zhangzixiao 20131216 start-->
+    <string name="pref_blacklist_title">黑名单设置</string>
+    <string name="pref_title_balcklist">黑名单</string>
+    <string name="pref_summary_blacklist">不接收黑名单中号码发送的消息</string>
+    <string name="number_editor">编辑号码</string>
+    <string name="type_to_number">键入号码</string>
+    <string name="add_successful">成功添加</string>
+    <string name="number_cannot_empty">号码不能为空</string>
+    <string name="illeage_number">非法号码</string>
+    <string name="already_have_number">此号码已存在</string>
+    <string name="deselect_all">取消全选</string>
+    <string name="selected">选中</string>
+    <string name="back_to_phone_memory">恢复到手机内存</string>
+    <string name="no_message">无信息</string>
+    <!--add JBLW-482 zhangzixiao 20131216 end -->
+    <string name="menu_sim_msg">SIM卡信息</string>
+    <!--add DWYQYSB-317 kangduohua 20160902 start-->
+    <string name="menu_import_export">导入/导出信息</string>
+    <!--add DWYQYSB-317 kangduohua 20160902 end-->
+</resources>
+

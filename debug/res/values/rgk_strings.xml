@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- RGK-Feature Signature -->
+    <string name="pref_sms_signature_title">SMS signature</string>
+    <string name="pref_title_enable_signature">SMS signature</string>
+    <string name="pref_summary_enable_signature">SMS signature enabled</string>
+    <string name="pref_summary_disable_signature">SMS signature disabled</string>
+    <string name="pref_title_edit_signature">Edit SMS signature</string>
+    <string name="signature_empty">Can not save empty signature!</string>
+    <string name="default_signature">Sent from my phone</string>
+     <!-- Modify, JWLW-1141, zhangzixiao, 20131118, Start -->
+    <string name="pref_title_notification_ringtone1">SIM1 Ringtone</string>
+    <string name="pref_summary_notification_ringtone1">Set a ringtone of SIM1 for new notifications</string>
+    <string name="pref_title_notification_ringtone2">SIM2 Ringtone</string>
+    <string name="pref_summary_notification_ringtone2">Set a ringtone of SIM2 for new notifications</string>
+    <!--  Modify, JWLW-1141, zhangzixiao, 20131118, End -->
+    
+    <!-- add JWLWKK-1209 zhangzixiao 20140728 start-->
+    <string name="pref_encryption_settings_title">Conversation encryption</string>
+    <string name="pref_summary_enable_encrytpion">Conversation encryption enabled</string>
+    <string name="pref_summary_disable_encrytpion">Conversation encryption disabled</string>
+    <string name="pref_title_enable_encrytpion">Conversation encryption</string>
+    <string name="pref_title_edit_encrytpion">Edit encryption password</string>
+    <string name="edit_pwd">Edit password</string>
+    <string name="new_pwd">Create password</string>
+    <string name="next">Continue</string>
+    <string name="input_pwd">Input password</string>
+    <string name="input_old_pwd">Input old password</string>
+    <string name="input_new_pwd">Input New password</string>
+    <string name="input_confirm_pwd">Input confirmation password</string>
+    <string name="tip_same_pwd">New password can not be same as old password!</string>
+    <string name="tip_not_same_pwd">Confirmation password must be same as new password!</string>
+    <string name="tip_old_pwd_incorrect">Old password is incorrect!</string>
+    <string name="tip_pwd_incorrect">Password is incorrect!</string>
+    <string name="tip_pwd_change_success">Password successfully changed!</string>
+    <string name="menu_encryption">Encrypt</string>
+    <string name="menu_decryption">Decrypt</string>
+    <string name="encrypt_first">Please encrypt first!</string>
+    <string name="encrypt_has_alphabet">The password must contain at least one alphabet!</string>
+    <!-- add JWLWKK-1209 zhangzixiao 20140728 end -->
+	
+	<!--Add, Mms-SmsEncoding7Bit  Start-->
+    <string name="pref_encoding_automatic">Automatic</string>
+    <string name="pref_encoding_7bit">Default Alphabet</string>
+    <string name="pref_sms_encoding_title">Character Encoding</string>
+    <string name="pref_sms_encoding_summary">SMS character encoding</string>
+    <string name="pref_sms_encoding_dialog_title">Character Encoding</string>
+    <!--Add, Mms-SmsEncoding7Bit  End-->
+    <!-- add JEYS-57 zhangzixiao 20131226 start-->
+    <string name="menu_scheduled_message">Scheduled message</string>
+    <!-- A: JWYYL-732  guochenlong  20141224 -->
+    <string name="scheduled_msg_back">Back</string>
+    <string name="scheduled_msg_next">Next</string>
+    <string name="scheduled_msg_finish">Finish</string>
+    <!-- add JEYS-57 zhangzixiao 20131226 end-->
+    <!-- add BWLWLLN-50 chengguangshuai 20161102 start-->
+    <string name="scheduled_message_set_time_error">Can not select the time in the past, please choose again!</string>
+    <!-- add BWLWLLN-50 chengguangshuai 20161102 start -->
+    <!--add JBLW-482 zhangzixiao 20131216 start-->
+    <string name="pref_blacklist_title">Blacklist settings</string>
+    <string name="pref_title_balcklist">Blacklist</string>
+    <string name="pref_summary_blacklist">Not receive messages sent by numbers in Blacklist</string>
+    <string name="number_editor">Edit number</string>
+    <string name="type_to_number">Type number</string>
+    <string name="add_successful">Add successfully</string>
+    <string name="number_cannot_empty">Number can not be empty</string>
+    <string name="illeage_number">Illegal number</string>
+    <string name="already_have_number">You have this number already</string>
+    <string name="no_number">No Number</string>
+
+    <string name="deselect_all">Deselect All</string>
+    <!-- <string name="select_all">Select All</string> -->
+    <string name="selected">selected</string>
+    <!-- <string name="delete">Delete</string> -->
+    <!-- <string name="copy">Copy</string> -->
+    <string name="back_to_phone_memory">Back to phone memory</string>
+    <string name="no_message">No Message</string>
+    <!--add JBLW-482 zhangzixiao 20131216 end -->
+    <string name="menu_sim_msg">SIM Messages</string>
+    <!--add DWYQYSB-317 kangduohua 20160902 start-->
+    <string name="menu_import_export">Import/Export SMS</string>
+    <!--add DWYQYSB-317 kangduohua 20160902 end-->
+	<string name="custome_cb_name">India</string>
+</resources>
+

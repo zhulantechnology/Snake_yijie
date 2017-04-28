@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="pref_mms_creation_mode_choices">
+<item>Hali yenye Mipaka</item>
+<item>modi ya tahadhari</item>
+<item>modi ya bure</item>
+</string-array>
+<string-array name="default_quick_texts">
+<item>Uko wapi?</item>
+<item>unafanya nini?</item>
+<item>nipigie tafadhali!</item>
+<item>samahani niko na mkutano sahii.</item>
+<item>nitakupigia hivi punde</item>
+<item>usijali niko salama</item>
+<item>nikonjiani naelekea nyumbani</item>
+<item>nitawasili hivi punde</item>
+<item>Kuwa huko au kamwe usikuwepo!</item>
+</string-array>
+<string-array name="pref_key_mms_priority_choices">
+<item>"Juu"</item>
+<item>"Kawaida"</item>
+<item>"Chini"</item>
+</string-array>
+<string-array name="pref_sms_save_location_choices">
+<item>"Simu"</item>
+<item>kadi ya SIM</item>
+</string-array>
+<string-array name="pref_tablet_sms_save_location_choices">
+<item>"Kifaa"</item>
+<item>kadi ya SIM</item>
+</string-array>
+<string-array name="pref_sms_input_mode_choice">
+<item>alfabeti za GSM</item>
+<item>kodi moja</item>
+<item>"Kiotomatiki"</item>
+</string-array>
+<string-array name="pref_message_font_size_choices">
+<item>Fuata fonti ya mfumo</item>
+<item>"Ndogo"</item>
+<item>"Wastani"</item>
+<item>"Kubwa"</item>
+<item>Kubwa mno</item>
+</string-array>
+<string-array name="large_emoticon_name">
+<item>[Sifu]</item>
+<item>[Zawadi]</item>
+<item>[KongFu]</item>
+<item>[Shawa]</item>
+<item>[ukalili]</item>
+<item>[mgonjwa]</item>
+<item>[Tajiri]</item>
+<item>[Peperuka]</item>
+<item>[Hasira]</item>
+<item>[Thibitisha]</item>
+<item>[Sinya]</item>
+<item>[Lia]</item>
+<item>[Endesha]</item>
+<item>[Kula]</item>
+<item>[Furaha]</item>
+<item>[Shikilia]</item>
+<item>[Likizo]</item>
+<item>[Mapenzi]</item>
+<item>[Omba]</item>
+<item>[shinikizo]</item>
+<item>[Imba]</item>
+<item>[Lala]</item>
+<item>[Mchezo]</item>
+<item>[Ogelea]</item>
+</string-array>
+<string-array name="dynamic_emoticon_name">
+<item>{Furaha}</item>
+<item>{Piga makofi}</item>
+<item>{Mapenzi}</item>
+<item>{Kujivunia}</item>
+<item>{jeuri}</item>
+<item>{Kutokuwa na subra}</item>
+<item>{Zaba kofi}</item>
+<item>{Hasira}</item>
+<item>{Lani}</item>
+<item>{Ijapokuwa}</item>
+<item>{Kuminyana}</item>
+<item>{Lia}</item>
+<item>{Kuvunja moyo}</item>
+<item>{Kasiria_pia}</item>
+<item>{Karibu}</item>
+<item>{Kupitia}</item>
+<item>{Kuomba}</item>
+<item>{Safi}</item>
+<item>{Kwaheri}</item>
+<item>{Mpole}</item>
+<item>{Furahisha}</item>
+<item>{Njaa}</item>
+<item>{Lala}</item>
+<item>{Maombi}</item>
+</string-array>
+<string-array name="ad_emoticon_name">
+<item>/Piga/</item>
+<item>/onyesho la silaidi/</item>
+<item>/Lia/</item>
+<item>/Jambo/</item>
+<item>/Mdundo wa moyo/</item>
+<item>/Sinzia/</item>
+<item>/Cheka/</item>
+<item>/Kutokuwa na subra/</item>
+<item>/Kimbia/</item>
+<item>/Lani/</item>
+<item>/Jasho/</item>
+<item>/Inafwatilia/</item>
+<item>/Chemua/</item>
+<item>/Cheza/</item>
+<item>/Hasira/</item>
+<item>/Ruka/</item>
+<item>/Chungulia/</item>
+<item>/Kuangushwa/</item>
+<item>/Kula/</item>
+<item>/Hoop/</item>
+<item>/Pita/</item>
+<item>/Tingisha/</item>
+<item>/Kwaheri/</item>
+<item>/Kielezi/</item>
+</string-array>
+<string-array name="xm_emoticon_name">
+<item>#konyeza#</item>
+<item>#swali#</item>
+<item>#tapita#</item>
+<item>#Kisirani#</item>
+<item>#penda#</item>
+<item>#nzuri#</item>
+<item>#sinzia#</item>
+<item>#choka#</item>
+<item>#changanyikiwa#</item>
+<item>#chumu#</item>
+<item>#penda#</item>
+<item>#lani#</item>
+<item>#pesa#</item>
+<item>#tabasamu#</item>
+<item>#lia#</item>
+<item>#hasira#</item>
+<item>#furahishwa#</item>
+<item>#Tabia mbaya#</item>
+<item>#kutisha#</item>
+<item>#kizunguzungu#</item>
+<item>#Aibishwa#</item>
+<item>#lala#</item>
+<item>#potea#</item>
+<item>#maoni#</item>
+</string-array>
+<string-array name="ct_sms_save_location_array">
+<item>"Simu"</item>
+<item>Kadi ya UIM</item>
+</string-array>
+</resources>

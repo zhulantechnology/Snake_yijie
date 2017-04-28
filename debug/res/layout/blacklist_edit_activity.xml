@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by zhangzixiao JBLW-482 20131216 NewFeature:message blacklist -->
+
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical">
+  <LinearLayout 
+    android:id="@+id/LinearLayout01" 
+    android:layout_width="match_parent" 
+    android:layout_height="0dip"
+    android:layout_weight="1">
+    <ListView 
+        android:id="@+id/black_text_list" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:divider="@drawable/divider_horizontal" />
+    <TextView 
+	android:id="@+id/empty"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:text="@string/no_number" />
+  </LinearLayout>
+
+  <View android:background="?android:attr/dividerHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height=".9dp" />
+
+   <LinearLayout 
+      android:id="@+id/LinearLayout02" 
+      android:layout_width="match_parent" 
+      android:background="#fff"
+      android:layout_gravity="bottom"
+      android:layout_height="wrap_content">
+      <EditText 
+          android:id="@+id/new_black_text" 
+          android:layout_gravity="left" 
+          android:layout_width="match_parent" 
+          android:layout_weight="1" 
+          android:layout_marginLeft="8dip"
+          android:typeface="normal" 
+          android:hint="@string/type_to_number" 
+          android:textColor="@android:color/black"
+          android:layout_height="match_parent"
+          android:gravity="center_vertical"
+          android:maxLength="128"/>
+      <Button 
+          android:id="@+id/blackText_add_button" 
+          android:text="@string/add" 
+          android:layout_gravity="right|bottom"
+          android:layout_width="match_parent" 
+          android:layout_weight="5" 
+          android:layout_height="wrap_content"/>
+  </LinearLayout>
+</LinearLayout>

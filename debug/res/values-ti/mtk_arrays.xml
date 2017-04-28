@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="pref_mms_creation_mode_choices">
+<item>ዝተከልከለ ኩነታት</item>
+<item>መጠንቀቕታ ኩነታት</item>
+<item>ነፃ ኩነታት</item>
+</string-array>
+<string-array name="default_quick_texts">
+<item>ኣበይ ኣሎኻ?</item>
+<item>እንታይ እናገብርኻዩ?</item>
+<item>በይዛኻ ! መሊስካ ደልወል!</item>
+<item>ይቕሬታ፣ ሕዚ ኣኬባ ኣለኒ፡፡</item>
+<item>ወድያውኑ ክድውል እየ፡፡</item>
+<item>ኣነ ደሐን እዬ፡፡ ኣይትጨነቅ!</item>
+<item>ናብ ገዛ እናከድኩ እያ፡፡</item>
+<item>ቶሎ ኢልካ እተው፡፡</item>
+<item>ኣብኡ ተረኸብ ወይ ድማ መዓረ እተው!</item>
+</string-array>
+<string-array name="pref_key_mms_priority_choices">
+<item>ዝልዓለ</item>
+<item>ልሙድ</item>
+<item>ትሑት</item>
+</string-array>
+<string-array name="pref_sms_save_location_choices">
+<item>ስልኪ</item>
+<item>ሲም ካርድ</item>
+</string-array>
+<string-array name="pref_tablet_sms_save_location_choices">
+<item>መሳርሒ</item>
+<item>ሲም ካርድ</item>
+</string-array>
+<string-array name="pref_sms_input_mode_choice">
+<item>ናይ GSM ፊደል</item>
+<item>ዩኒኮድ</item>
+<item>ብባዕሉ</item>
+</string-array>
+<string-array name="pref_message_font_size_choices">
+<item>ሜላ መጠን ፊደል ተከተል</item>
+<item>ንእሽተይ</item>
+<item>ማእከላይ</item>
+<item>ዓብይ</item>
+<item>ብጣዓሚ ዓብይ</item>
+</string-array>
+<string-array name="large_emoticon_name">
+<item>[ምስጋና]</item>
+<item>[ዉህብቶ]</item>
+<item>[ኮንግፉ]</item>
+<item>[ሻወር]</item>
+<item>[ምፍራሕ]</item>
+<item>[ሕሙም]</item>
+<item>[ሃፍታም]</item>
+<item>[ምብራር]</item>
+<item>[ንዴት]</item>
+<item>[ምፅዳቕ]</item>
+<item>[መሰልቸይ]</item>
+<item>[ምብካይ]</item>
+<item>[ምዝዋር]</item>
+<item>[ምብላዕ]</item>
+<item>[ሓጎስ]</item>
+<item>[ሓዝ]</item>
+<item>[በዓል]</item>
+<item>[ፍቕሪ]</item>
+<item>[ፀሎት]</item>
+<item>[ተሓጓስ]</item>
+<item>[ደርፊ]</item>
+<item>[ድቃስ]</item>
+<item>[ስፖርታት]</item>
+<item>[ምሕማስ]</item>
+</string-array>
+<string-array name="dynamic_emoticon_name">
+<item>{ሓጎስ}</item>
+<item>{ምንጭብጫብ}</item>
+<item>{ፍቕሪ}</item>
+<item>{ምኹራዕ}</item>
+<item>{ንዕቐት}</item>
+<item>{ትዕግስቲ ምስኣን}</item>
+<item>{ፅፍዒት}</item>
+<item>{ንዴት}</item>
+<item>{መርገም}</item>
+<item>{ይኹን እምበር}</item>
+<item>{ዘይተኣሳሰር}</item>
+<item>{ምብኻይ}</item>
+<item>{ተስፋመቑረፂ}</item>
+<item>{ምንዳድ_ብጣዕሚ}</item>
+<item>{ከባቢ}</item>
+<item>{ምሕላፍ}</item>
+<item>{ኣምልኮ}</item>
+<item>{ፅሩይ}</item>
+<item>{ቻዉ}</item>
+<item>{ለዋህ}</item>
+<item>{መገረሚ}</item>
+<item>{ጥምየት}</item>
+<item>{ድቃስ}</item>
+<item>{ትምኒት}</item>
+</string-array>
+<string-array name="ad_emoticon_name">
+<item>/ምዉቃዕ/</item>
+<item>/ጎኒምርኣይ/</item>
+<item>/ምብካይ/</item>
+<item>/ሃሎ/</item>
+<item>/ናይ ልቢ ዉቅዒት/</item>
+<item>/ተቐመጥ/</item>
+<item>/ሰሓቕ/</item>
+<item>/ትዕግስቲ ምስኣን/</item>
+<item>/ምጉያይ/</item>
+<item>/መርገም/</item>
+<item>/ምቁር/</item>
+<item>/የዋህ/</item>
+<item>/ምሕንጣሽ/</item>
+<item>/ስዕስዒት/</item>
+<item>/ምንዳድ/</item>
+<item>/ምዝላል/</item>
+<item>/ፒፕ/</item>
+<item>/ፕራትፌል/</item>
+<item>/ምብላዕ/</item>
+<item>/ቦንዳ/</item>
+<item>/ምሕላፍ/</item>
+<item>/ምንቕናቕ/</item>
+<item>/ቻዉ/</item>
+<item>/ኣስትሪክሽን/</item>
+</string-array>
+<string-array name="xm_emoticon_name">
+<item>#ምጥቃስ#</item>
+<item>#ሕቶ#</item>
+<item>#ንዓቐብ ምባል#</item>
+<item>#ሕማቕ ዕድል#</item>
+<item>#ምፍታዉ#</item>
+<item>#ድኻም#</item>
+<item>#ዝዞሮ#</item>
+<item>#ድኻም#</item>
+<item>#ግራ ምእታዉ#</item>
+<item>#ምስዓም#</item>
+<item>#ፍቕሪ#</item>
+<item>#መርገም#</item>
+<item>#ገንዘብ#</item>
+<item>#ፍሽኽታ#</item>
+<item>#ብኽያት#</item>
+<item>#ንዴት#</item>
+<item>#ደስታ#</item>
+<item>#መምህረይ#</item>
+<item>#ትሪለር#</item>
+<item>#ዴዝ#</item>
+<item>#ዝሓፈረ#</item>
+<item>#ድቃድ#</item>
+<item>#ዝስወር#</item>
+<item>#ቕሬታ#</item>
+</string-array>
+<string-array name="ct_sms_save_location_array">
+<item>ስልኪ</item>
+<item>UIM ካርድ</item>
+</string-array>
+</resources>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">መልእኽታት</string>
+<string name="new_message">ሓዱሽ መልእኽቲ</string>
+<string name="menu_call_back"><xliff:g id="name">%s</xliff:g> ፀውዕ</string>
+<string name="menu_send_email">ናብ  <xliff:g id="name">%s</xliff:g> ኢሜይል ስደድ</string>
+<string name="menu_compose_new">ምሕዋስ</string>
+<string name="menu_preferences">ስንድኦታት</string>
+<string name="menu_add_address_to_contacts"><xliff:g id="contactEmailOrNumber">%s</xliff:g> ናብ ኣድራሻታት ወስኽ</string>
+<string name="storage_warning_title">"ናይ ስልክኻ መኽዘን መሊኡ"</string>
+<string name="storage_warning_content">"ሓዱሽ ኤስኤምኤስቲ/ኤምኤምኤስ ምቕባል ኣይከኣልን"</string>
+<string name="label_mms_send_outbox_msg">ኤምኤምኤስ መንቅሒ</string>
+<string name="desc_mms_send_outbox_msg">ኩሎም ኤምኤምኤሳት ኻብ ደጋዊ ሰደቓ ናብ መረበብ ይልእኽ</string>
+<string name="sending_disabled_not_default_app">ምልኣኽ ተኸልኪሉ</string>
+<string name="compose_disabled_toast">ምውዳድ ኣይከኣለን፡፡ ነቡር ኤስኤምኤስ ዓውደ ሙያ ኣይኮነን፡፡</string>
+<string name="banner_sms_promo_title_initial">መልእኽታት ናይ ኤስኤምኤስ ዓዉደሞያ ኣይኮኑን</string>
+<string name="banner_sms_promo_title_application"><xliff:g id="appName">%s</xliff:g> ናይ ኤስኤምኤስ ዓውደ ሙያኻ እዩ</string>
+<string name="banner_sms_promo_message">ኣብ ስንድኦታት ምቕያር ትኽእል</string>
+<string name="menu_call">ደውል</string>
+<string name="menu_search">ምድላይ</string>
+<string name="menu_delete_all">ኩሉ መሕለፊ ኣጥፍእ</string>
+<string name="menu_delete">መሕለፊ ኣጥፍእ</string>
+<string name="menu_view">መሕለፊ ርአ</string>
+<string name="menu_debug_dump">ዝፈሰሰ ምእራም</string>
+<string name="refreshing">እናሓደሰ\u2026</string>
+<string name="has_draft">ረቂቅ</string>
+<string name="no_subject_view">(ዋኒን የለን)</string>
+<string name="messagelist_sender_self">ኣነ</string>
+<string name="view_slideshow">ስላይድ ምርኢት ምርኣይ</string>
+<string name="view_message_details">ዝርዝር ምርኣይ</string>
+<string name="view_delivery_report">ፀብፃብ ምርኣይ</string>
+<string name="delete_message">ኣጥፍእ</string>
+<string name="expire_on">"ግዘ ይሓልፎ:  <xliff:g id="date">%s</xliff:g>"</string>
+<string name="kilobyte">ኬቢ</string>
+<string name="undelivered_msg_dialog_title">ዘይበፅሕ መልእኸቲ</string>
+<string name="undelivered_msg_dialog_body">እዚ መልእኽቲ ምስዳድ ኣይክኣልን፡፡ \nዝተፈተነ ፈተነ :  <xliff:g id="message">%s</xliff:g>፡፡</string>
+<string name="undelivered_sms_dialog_body">እዚ መልእኸቲ ምስዳድ ኣይክኣልን፡፡</string>
+<string name="delete_thread">መሕለፊ ኣጥፍእ</string>
+<string name="menu_forward">ምልኣክ</string>
+<string name="download">ኣዉርድ</string>
+<string name="downloading">ኣብ ምዉራድ</string>
+<string name="inline_subject">ዋኒን፡ <xliff:g id="subject">%s</xliff:g>&gt;</string>
+<string name="drm_protected_text">"* ዲኣርኤም ዝተሐለወ ፅሑፍ *"</string>
+<string name="insufficient_drm_rights">ዘይዕግቡ ዲኣርኤም መሰላት ተረኺቦም፡፡</string>
+<string name="copy_message_text">ፅሑፍ ምቅዳሕ</string>
+<string name="message_options">መማረፂ መልእኸቲ</string>
+<string name="slideshow_options">መማረፂ ስላይድ ምርኢት</string>
+<string name="move_up">ንላዕሊ ኣንቀሳቅስ</string>
+<string name="move_down">ንታሕቲ ኣንቀሳቅስ</string>
+<string name="remove_slide">ስላይድ ምውጋድ</string>
+<string name="add_slide">ስላይድ ምውሳክ</string>
+<string name="add_slide_hint">ሓዱሽ ስላይድ ንምፍጣር ምረፅ፡፡</string>
+<string name="discard_slideshow">ስላይድ ምእላይ</string>
+<string name="slide_show_part">ክፋል  <xliff:g id="part">%1$s</xliff:g>/  <xliff:g id="total">%2$s</xliff:g></string>
+<string name="remove_text">ፅሑፍ ምውጋድ</string>
+<string name="add_picture">ምስሊ ምውሳኽ</string>
+<string name="remove_picture">ምስሊ ምውጋድ</string>
+<string name="add_music">ሙዚቃ ምውሳኽ</string>
+<string name="remove_music">ሙዚቃ ምውጋድ</string>
+<string name="add_video">ቪዲዮ ምውሳክ</string>
+<string name="remove_video">ቪዲዮዮ ምውጋድ</string>
+<string name="to_hint">ናብ</string>
+<string name="subject_hint">ዋኒን</string>
+<string name="add_attachment">ምትሕሓዝ</string>
+<string name="add_subject">ዋኒን ምውሳኽ</string>
+<string name="discard">ምውጋድ</string>
+<string name="view">ርኣይ</string>
+<string name="replace">ምትካእ</string>
+<string name="remove">ኣወግድ</string>
+<string name="send">ልኣኽ</string>
+<string name="mms">ኤምኤምኤስ</string>
+<string name="loading_conversations">ዝርርብ ምፅዓን</string>
+<string name="send_mms">ምስዳድ ኤምኤምኤስ</string>
+<string name="all_threads">ኩሉ መሕለፊ</string>
+<string name="type_to_compose_text_enter_to_send">ዓይነት መልእኸቲ</string>
+<string name="open_keyboard_to_compose_message">መልእኽቲ ንምትያብ ሰሌዳ መፋትሕ ምክፋት</string>
+<string name="compressing">ኣዚዩ ገዚፍ ምስሊ፡፡ ዕፅፍ\u2026</string>
+<string name="unsupported_media_format">ዘይተደገፈ  <xliff:g id="name">%1$s</xliff:g> ቅፃፅ ወይ መልክዕ</string>
+<string name="select_different_media">ዝተፈለየ መልክዕ ይምረፁ  <xliff:g id="name">%1$s</xliff:g></string>
+<string name="exceed_message_size_limitation">መጠን መልእኸቲ ወሰን በፂሑ</string>
+<string name="omh_exceed_message_size_limitation">R-UIM መልእኽቲ መጠን ገደብ በፂሑ</string>
+<string name="message_too_big_for_video">እዚ ምስሊ ሐባሪ ቪዲዮ ንምግባር ኣዚዩ ገዚፍ እዩ፡፡</string>
+<string name="failed_to_add_media">ይቕሬታ እዚ  <xliff:g id="name">%1$s</xliff:g> ናብ መልእኽቲ ምውሳኽ ኣይትክእልን፡፡</string>
+<string name="failed_to_resize_image">ምስሊ መሊሱ ኣይተስተኻኸለን፡፡</string>
+<string name="resize_image_error_information">ይቕረይታ፤ እዚ ምስሊ ወላኳ ደጊሙ ዝነኣሰ ይኩን ንበር ንምስዳድ ኣዚዩ ገዚፍ እዩ፡፡</string>
+<string name="forward_prefix">ምስዳድ:\u0020</string>
+<string name="discard_message">ምውጋድ</string>
+<string name="discard_message_reason">ናዮም መልእኸቲ ቅቡል ተቀበለቲ በዘይምህላዉ ምክንያት ዝጠፍእ ይኸውን፡፡</string>
+<string name="has_invalid_recipient">ተቐባልነት ዘይብሉ ተቐባሊ(ታት): &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+<string name="invalid_destination">ዘይቅቡል መብፅሒ ኣድራሻ፡፡</string>
+<string name="service_not_activated">ግልጋሎት ኣብ መረበብ ኣይነቅሕን፡፡</string>
+<string name="service_message_not_found">መልእኸቲ ግዘ ሐሊፍዎ ወይ ዘይርከብ እዩ፡፡</string>
+<string name="service_network_problem">ፀገም መረበብ፡፡</string>
+<string name="invalid_recipient_message">ተቀባሊ(ቲ) ይኣርሙ ወይ መልዕክቶም ዘይክቅብልዎ ይኽእሉ፡፡</string>
+<string name="cannot_send_message">እዚ መልእኽቲ ምስሳድ ኣይክኣልን</string>
+<string name="cannot_send_message_reason">መልዕክቶም ቅቡል ተቀባሊ የብሉን፡፡</string>
+<string name="cannot_forward_drm_obj">እዚ ዲኣርኤም ዓይነት ኣቅሓ ኣብ ዝሐወሶ መልእኸቲ ምስዳድ ኣይከኣልን፡፡</string>
+<string name="converting_to_picture_message">ናብ መልቲ ሚዲያ መልእኽቲ ኣብ ምቕያር\u2026</string>
+<string name="converting_to_text_message">ናብ ፅሑፍ መልእኽቲ ኣብ ምቕያር\u2026</string>
+<string name="cannot_add_slide_anymore">ዚያዳ ስላይዳት ምውሳክ ኣይክኣልን፡፡</string>
+<string name="cannot_add_picture_and_video">ኣብ ሓደ ስላይድ ምስልን ቪዲዮን ምውሳክ ኣይክኣልን፡፡</string>
+<string name="cannot_save_message">መልእኽቲ ምቅማጥ ኣይክኣልን</string>
+<string name="message_saved_as_draft">መልእኽቲ ከምረቒቕ ተቐሚጡ፡፡</string>
+<string name="too_many_recipients">እዚ መልእኽቲ ኣዚኦም ብዙሓት ተቀበልቲ ኣለዉዎ (  <xliff:g id="currentCount">%1$s</xliff:g>)፡፡ ናይ ተቀበልቲ ወሰን  <xliff:g id="maxLimit">%2$s</xliff:g> እዩ፡፡</string>
+<string name="too_many_attachments">ናይዚ ሓባሪ ወሰን  <xliff:g id="maxLimit">%1$s</xliff:g>እዩ፡፡ እዚውን ኣብ ፈለማ ዘለዉ  <xliff:g id="currentCount">%2$s</xliff:g> ዝወሰኹ ይከውን፡፡</string>
+<string name="adding_attachments_title">ሓባሪ ምውሳክ</string>
+<string name="adding_attachments">እቶም ኣቑሑ ኣብ ስላይድ ምርኢት እንትውሰኩ በይዝኦም ይፀበዩ፡፡</string>
+<string name="building_slideshow_title">ህንፀት ስላይድ ምርኢት</string>
+<string name="cannot_play_audio">ድምፂ ምፅዋት ኣይክኣልን፡፡</string>
+<string name="preview">ቅድመ ትርኢት</string>
+<string name="preview_slideshow">ቅድመ ትርኢት</string>
+<string name="replace_image">ምስሊ ምትካእ</string>
+<string name="duration_sec">ንውሓት ግዘ (  <xliff:g id="duration">%s</xliff:g> ሰከንድ)</string>
+<string name="duration_selector_title">"ንዉሓት ግዜ ንስላይድ "</string>
+<string name="layout_selector_title">"ንፃፍ ስላይድ ምርኢት "</string>
+<string name="layout_top">ንፃፍ (ላዕላይ)</string>
+<string name="layout_bottom">ንፃፍ (ታሕታዋይ)</string>
+<string name="type_to_compose_text_or_leave_blank">መልእኽቲ ምፅሓፍ፣ ወይ ባዶ ምግዳፍ</string>
+<string name="duration_not_a_number">ወሰኑ ቑፅሪ ክኮን ይግባእ</string>
+<string name="duration_zero">ወሰኑ ልዕሊ ባዶ ሰከንድ ክከውን ይግባእ</string>
+<string name="secs">ሰከንድታት</string>
+<string-array name="select_dialog_items">
+<item>1 ሰከንድ</item>
+<item>2 ሴኮንዳት</item>
+<item>3 ሴኮንዳት</item>
+<item>4 ሴኮንዳት</item>
+<item>5 ሴኮንዳት</item>
+<item>6 ሴኮንዳት</item>
+<item>7 ሴኮንዳት</item>
+<item>8ሴኮንዳት</item>
+<item>9 ሴኮንዳት</item>
+<item>10 ሴኮንዳት</item>
+<item>ካልእ\u2026</item>
+</string-array>
+<string name="menu_view_contact">መርኣይ ኣድራሻ</string>
+<string name="menu_add_to_contacts">ኣድራሻ ምውሳክ</string>
+<string name="hidden_sender_address">ሕቡእ ኣድራሻ ለኣኪ</string>
+<string name="yes">ሕራይ</string>
+<string name="no">ሰርዝ</string>
+<string name="set">ምድላዉ</string>
+<string name="play">ኣፃዉት</string>
+<string name="edit">ምእራም</string>
+<string name="try_to_send">ንምስዳድ ምፍታን</string>
+<string name="preferences_title">ስንድኦታት</string>
+<string name="restore_default">ንቡር ስንድኦታት ናብ ዝነበሮ መልስ</string>
+<string name="pref_notification_settings_title">ስንድኦታት ምልክታ</string>
+<string name="pref_mms_settings_title">"መልእኸቲ መልቲሚዲያ(ኤምኤምኤስ) ስንድኦት"</string>
+<string name="pref_sms_settings_title">"ስንድኦታት ናይ ፅሑፍ መልእኽቲ(ኤስኤምኤስ)"</string>
+<string name="pref_sms_storage_title">ስንድኦታት መኽዘን</string>
+<string name="pref_title_sms_disabled">ዝተሰንኸለ ሓፂር ናይ ፅሑፍ መልእኽቲ</string>
+<string name="pref_summary_sms_disabled">መልእኽታት ንቡር ኤስኤምኤስ ዓዉደሞያታትኻ ንምግብር ንኻእ</string>
+<string name="pref_summary_sms_enabled">ናብ ንቡር ሓፂር መልእኽቲ ዓውደ ሙያ ንምቕያር ምትንኻፍ</string>
+<string name="pref_summary_manage_sim_messages">ኣብ ሲም ካርድኻ ዝተቐመጡ መልእኽታት ኣመሓድር</string>
+<string name="pref_summary_mms_delivery_reports">ንዝሰደድዎ ሕድሕድ መልእከቲ ናይ ምብፃሕ ፀብፃብ ይሕተቱ</string>
+<string name="pref_summary_mms_read_reports">ንዝሰደድዎ ሕድሕድ መልእከቲ ናይ ምስዳድ ፀብፃብ ይሕተቱ</string>
+<string name="pref_summary_sms_delivery_reports">ንዝሰደድዎ ሕድሕድ መልእከቲ ናይ ምብፃሕ ፀብፃብ ይሕተቱ</string>
+<string name="pref_summary_auto_delete">ዝነበሩ መልእኽታት ወሰኖም እንተበፅሕ ኣጥፍእ</string>
+<string name="pref_summary_delete_limit">ኣብ ሕድሕድ ዝርርብ<xliff:g id="count">%1$s</xliff:g>መልእኽታት</string>
+<string name="pref_summary_mms_group_mms">ኤምኤምኤስ ተጠቐም ሓደ መልእኽቲን ብዙሓት ተቐበልቲን እንትህልዎም</string>
+<string name="pref_title_manage_sim_messages">መልእኽታት ሲም ካርድ ኣመሓድር</string>
+<string name="pref_title_mms_delivery_reports">ሕቶ ፀብፃብ ምብፃሕ</string>
+<string name="pref_title_mms_group_mms">ናይ ጉጅለ መልእኽታት</string>
+<string name="pref_title_mms_read_reports">ሕቶ ፀብፃብ ምንባብ</string>
+<string name="pref_title_sms_delivery_reports">ሕቶ ፀብፃብ ምብፃሕ</string>
+<string name="pref_title_auto_delete">ዝነበሩ መልእኽታት ኣጥፍእ</string>
+<string name="pref_title_sms_delete">ወሰን መልእኸቲ ፅሑፍ</string>
+<string name="pref_title_mms_delete">ወሰን መልቲሚዲያ ፅሑፍ</string>
+<string name="pref_title_notification_enabled">መልከታ መልእኽቲ</string>
+<string name="pref_title_notification_vibrateWhen">ምንቅጥቃጥ</string>
+<string name="pref_title_notification_ringtone">ድምፂ</string>
+<string name="pref_messages_to_save">ዝቕመጡ በዝሒ መልእኽታት ኣዳሉ</string>
+<string name="silent_ringtone">ድምፂ አልቦ</string>
+<string name="pref_title_mms_auto_retrieval">ባዕሉ ምርካብ</string>
+<string name="pref_summary_mms_auto_retrieval">መልእኽታት ብህፁፅ ምርካብ</string>
+<string name="pref_title_mms_retrieval_during_roaming">ሮሚንግ ብባዕሉ ምርካብ</string>
+<string name="pref_summary_mms_retrieval_during_roaming">ሮሚንግ ኣብ ዝገብረሉ ግዜ ብህፁፅ መልእኽታት ምርካብ</string>
+<string name="confirm_dialog_title">ኣጥፍእ</string>
+<string name="confirm_dialog_locked_title">ዝተዓፀወ መልእኽቲ ይሰረዝ?</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">ሓደ ዝርርብ  ክጠፍእ እዩ</item>
+<item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> ዝርርብ ዝጠፍእ ይኸውን</item>
+</plurals>
+<string name="confirm_delete_conversation">ጠቕላላ ፈትሊ ክድምሰስ እዩ፡፡</string>
+<string name="confirm_delete_all_conversations">ኹሎም መሕለፊታት ዝጠፍኡ ይኸውን፡፡</string>
+<string name="confirm_delete_message">እቲ መልእከቲ ዝጠፍእ ይኸውን፡፡</string>
+<string name="confirm_delete_locked_message">እዚ ዝተዓፀወ መልእኸቲ ክስረዝ ምድላዮም እርግፀኛ ዲዮም?</string>
+<string name="confirm_delete_all_SIM_messages">ኹሎም ኣብ ሲም ዘለዎ መልእኸቲታት ዝጠፍእ ይኾኑ፡፡</string>
+<string name="confirm_delete_SIM_message">እዚ ኣብ ሲም ዘለዎ መልእኸቲታት ዝጠፍእ ይኾን፡፡</string>
+<string name="delete_unlocked">ዝተዓፀወ መልእኽቲ ምጥፋእ</string>
+<string name="delete">ኣጥፍእ</string>
+<string name="select_conversations">ዝርርብ ምምራፅ</string>
+<string name="no_conversations">ምይይጣት የለውን</string>
+<string name="cannot_get_details">ዝርዝራት ምርካብ ኣይከኣለን</string>
+<string name="message_details_title">ዝርዝር መልእኽቲ</string>
+<string name="message_type_label">ዓይነት፡\u2020</string>
+<string name="text_message">ፅሑፍ መልእኽቲ</string>
+<string name="multimedia_message">መራኽቢ ብዙሐን መልእኽቲ</string>
+<string name="multimedia_notification">መልእኽቲ መልቲ ሚዲያ ምልከታ</string>
+<string name="from_label">ካብ፡\u2020</string>
+<string name="to_address_label">ናብ :\u0020</string>
+<string name="bcc_label">ቅዳሕ:\u0020</string>
+<string name="sent_label">ተላኢኩ:\u0020</string>
+<string name="received_label">ተቐቢሉ፡\u2020</string>
+<string name="saved_label">ዝተቀበለ:\u0020</string>
+<string name="subject_label">ዋኒን:\u0020</string>
+<string name="message_size_label">መጠን መልእኸቲ:\u0020</string>
+<string name="priority_label">ቀደምነት:\u0020</string>
+<string name="priority_high">ዝልዓለ</string>
+<string name="priority_normal">ልሙድ</string>
+<string name="priority_low">ትሑት</string>
+<string name="message_class_label">ክፍሊ መልእኽቲ:\u0020</string>
+<string name="error_code_label">ጌጋ ኮድ:\u0020</string>
+<string name="menu_edit">ምእራም</string>
+<string name="menu_delete_messages">መልእኽታት ኣጥፍእ</string>
+<string name="menu_delete_all_messages">ኩሉ መልእኽቲ ምጥፋእ</string>
+<string name="menu_lock">ምዕፃዉ</string>
+<string name="menu_unlock">ምኽፋት</string>
+<string product="tablet" name="sim_copy_to_phone_memory">ናብ መዘከር ታብሌት ምቅዳሕ</string>
+<string product="default" name="sim_copy_to_phone_memory">ናብ መዘከር ስልኪ ምቅዳሕ</string>
+<string name="sim_delete">ኣጥፍእ</string>
+<string name="sim_manage_messages_title">ኣብ ሲም ካርድ መልእኽቲ ፅሑፍ</string>
+<string name="sim_view">ርኣይ</string>
+<string name="sim_empty">ኣብ ሲም ካርድ መልእኽታት የለዉን</string>
+<string name="delivery_header_title">ሪፖርት</string>
+<string name="status_none">(የለን)</string>
+<string name="status_pending">ምምሕልላፍ</string>
+<string name="status_read">ምንባብ</string>
+<string name="status_received">ተቀቢሉ</string>
+<string name="status_failed">ዘይተዓወተ</string>
+<string name="status_unread">ዘይተነበበ</string>
+<string name="status_rejected">ዝተነፀገ</string>
+<string name="recipient_label">ተቀባሊ:\u0020</string>
+<string name="status_label">ኩነት:\u0020</string>
+<string name="attach_image">ምስልታት</string>
+<string name="attach_take_photo">ምስሊ ምልዓል</string>
+<string name="attach_video">ቪዲዩታት</string>
+<string name="attach_record_video">ቪዲዮ ምልዓል</string>
+<string name="attach_sound">ድምፂ</string>
+<string name="attach_record_sound">ድምፂ ምቕዳሕ</string>
+<string name="attach_slideshow">ስላይድ ምርኢት</string>
+<string name="select_bottom_text">ኣብ ታሕቲ ፅሑፍ</string>
+<string name="select_top_text">ኣብ ላዕሊ ፅሑፍ</string>
+<string name="delivery_toast_body">መልእኽቲ ብ %s ተቀቢሉ</string>
+<string name="notification_multiple_title">ሓዱሽ መልእኽቲ</string>
+<string name="notification_failed_multiple"><xliff:g id="count">%s</xliff:g> መልእኽቲታት ክሰደድ ኣይከኣልን፡፡</string>
+<string name="notification_failed_multiple_title">መልእኽቲ ኣይተሰደደን</string>
+<string name="sim_full_title">ሲም ካርድ መሊኡ</string>
+<string name="sim_full_body">ንዝበለፀ ቦታ ምህላዉ ውሱን መልእኽቲ ይሰርዙ፡፡</string>
+<string name="sms_full_title">መልእኽቲ መዘክር መሊኡ</string>
+<string name="sms_full_body">መፃእቲ መልእኽቲ መዝከር ብምምልኡ ምክንያት ተነፂጎም፡፡ ዝተወሰነ መልእኽቲ ይሰርዙ፡፡</string>
+<string name="sms_rejected_title">ዝተነፀገ ፅሑፍ መልእኽቲ</string>
+<string name="sms_rejected_body">ብዘይተፈለጠ ምክንያት መፃእቲ መልእኽቲ ተነፂጎም፡፡</string>
+<string name="type_audio">ድምፂ</string>
+<string name="type_picture">ምስሊ</string>
+<string name="type_video">ቪዲዮ</string>
+<string name="confirm">ሕራይ</string>
+<string name="message_send_read_report">ፀብፃብ መንበቢ ክለኣክ እዩ፡፡</string>
+<string name="message_queued">በእዚ እዋን መልእክቶም ምልኣኽ ኣይጸከኣለን፡፡ እቲ ግለጋሎት እንትርከብ ዝለኣክ ይኸውን፡፡</string>
+<string name="fdn_check_failure">ናብ ቀዋሚ መደወሊ ቑፅሪ ጥራሕ መልዕክቶም ምስዳድ ይኽእሉ፡፡</string>
+<string name="no_subject">(ዋኒን የለን)</string>
+<string name="unknown_sender">ዘይተፈለጠ ለኣኪ</string>
+<string name="dl_failure_notification">ምፅዓን  <xliff:g id="subject">%1$s</xliff:g> from  <xliff:g id="from">%2$s</xliff:g> መልእኽቲ ኣይተዓወተን፡፡</string>
+<string name="rate_limit_surpassed">ሕራይ</string>
+<string name="confirm_rate_limit">ብዙህ መጠን ዘለዎም መልእኸቲ መልቲ ሚዲያ እንዳተላኣኹ እዮም፡፡ ይለኣኹ ዶ?</string>
+<string name="message_download_failed_title">ዝወረደ መልእኽቲ የለን</string>
+<string name="message_send_failed_title">መልእኸቲ ኣይተለኣከን</string>
+<string name="message_failed_body">መልእኽቲ ንምርኣይን እንደገና ንምስደድን ይምረፁ፡፡</string>
+<string name="download_later">በእዚ እዋን ምፅዓን ኣይከኣለን፡፡ በይዝኦም ፀኒሖም ይፈትኑ፡፡</string>
+<string name="no_apn">ዝተነፀረ APN ኣብዚ ኣቕሓ ኣይተረኸበን፡፡</string>
+<string name="select_audio">ድምፂ ምምራፅ</string>
+<string name="copy_to_sdcard">ሐባሪ ምቅማጥ</string>
+<string name="copy_to_sdcard_success">ሓባሪ ተቐሚጡ</string>
+<string name="copy_to_sdcard_fail">ሓባሪ ምቅማጥ ኣይከኣለን</string>
+<string name="save_ringtone">ከምድወል ድምፂ ምቕማጥ</string>
+<string name="saved_ringtone">ዝተቀመጠ ደውል ድምፂ</string>
+<string name="saved_ringtone_fail">ስንድኦት ደውል ድምፂ ኣቢዩ</string>
+<string name="menu_insert_smiley">ስእላዊ መግለፂ ምእታዉ</string>
+<string name="menu_group_participants">ተሳተፍቲ ጉጅለ</string>
+<string name="select_link_title">ተግባር ምምራፅ</string>
+<string name="slide_number"><xliff:g id="number" example="5">%s</xliff:g> ኣንሸራትት</string>
+<string name="delivery_report_activity">ፀብፃብ ምብፃሕ</string>
+<string name="storage_limits_activity">ወሰን መቀመጢታት</string>
+<string name="change_duration_activity">ቅንያት መቀየሪ</string>
+<string name="edit_slideshow_activity">ስላይድ ምርኢት ምእራም</string>
+<string name="recipient_list_activity">ተሳተፍቲ ጉጅለ</string>
+<string name="edit_slide_activity">ስላይድ ምርኢት ምእዛዉ</string>
+<string name="slideshow_activity">ስላይድ ምርኢት</string>
+<string name="class_0_message_activity">ክፍሊ 0 መልእኸቲ</string>
+<string name="search_label">መልእኽታት</string>
+<string name="search_hint">መልእኽታት ድለ</string>
+<string name="search">መልእኽታት</string>
+<string name="search_setting_description">ኣብ መልእክቶም ዉሽጢ ይፅሓፉ</string>
+<string name="search_empty">ዘይመሳሰል</string>
+<plurals name="search_results_title">
+<item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g>ውፅኢት ን\"  <xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+<item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> ውፅኢት ን\"  <xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+</plurals>
+<string name="search_history"><xliff:g id="count">%1$s</xliff:g> ውፅኢት ን\"  <xliff:g id="search">%2$s</xliff:g>\"</string>
+<string name="confirm_clear_search_title">የጥፍኡ</string>
+<string name="confirm_clear_search_text">ታሪክ መድለይ ክስረዝ እዩ</string>
+<string name="pref_mms_clear_search_history_title">ኣሰር መድለይ ምፅራይ</string>
+<string name="pref_mms_clear_search_history_summary">ኣበብ ናይ መድለይ ሳፁን ካብ ዝረኣዩ ዝሓለፈ ዝተደለዩ መልእኽታት ኣፅሪ</string>
+<string name="save">ኣቐምጥ</string>
+<string name="storage_limits_title">ወሰን መልእኽቲ</string>
+<string name="storage_limits_message">በዝሒ ዘቕምጥዎ ወሰን መልእኽቲ በብዘርርብ መልእኽቲ ክውሰን ድሌት ኣለዎም ድዩ?</string>
+<string name="storage_limits_setting">ወሰን ምቕማጥ</string>
+<string name="storage_limits_setting_dismiss">ወሰን የብሉን</string>
+<string name="too_many_unsent_mms">እዚ መልእኽቲ ሐዚ ምልኣክ ኣይክኣለን፡፡ ብዙሓት ዘይተለኣኩ መልቲሚዲያ መልእኽትታት ኣለው፡፡</string>
+<string name="sending_message">ምልኣኽ\u2026</string>
+<string name="pick_too_many_recipients">ብዙሓት ተቐበልቲ</string>
+<string name="adding_recipients">ኣወሳሰካ ተቐበልቲ\u2026</string>
+<string name="draft_separator">,\u0020</string>
+<string name="message_count_format">" <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+<string name="error_state">ዘይተተሐዛ ኩነት</string>
+<string name="error_state_text">እዞም መሕለፊ ኩነታት ምስተቀበልቲ ዘይተተሓሓዙ እዮም፡፡ በይዝኦም መሰገኒ ፀብፃብ ከምእዉን ብ http://go/droidanizer ምእዘዊ ያልእሉ</string>
+<string name="file_attachment_common_name">ብዙሓት ፋይላት(  <xliff:g id="text">%s</xliff:g>)</string>
+<string name="file_attachment_contains">ዘሓዞ</string>
+<string name="file_attachment_files">ፋይላት</string>
+<string name="save_attachment">ሓባሪ ምቅማጥ</string>
+<string name="save_multi_attachment_notes">እዚ ብዝሐ-ፋይል ብዙሓት ትሕዝቶ ዘለዎ እዩ፡፡ እዚ በምፅራይ ይቀመጥ?</string>
+<string name="save_single_attachment_notes">ኣብ ኤምኤምኤስ ዘይተደገፈ ዓይነት እዩ፡፡ ኣብ ፋይል ኣላይ ይቀመጥ?</string>
+<string name="multi_files">ብዝሐ-ፋይል</string>
+<string name="save_single_supportformat_attachment_notes">እዚ ኣብ ፋይል ምምሕዳር ይቀመጥ?</string>
+<string name="menu_cell_broadcasts">ሴል ብሮድካስት</string>
+<string name="delivered_label">ዝበፅሐ\u0020</string>
+<string name="message_count_notification"><xliff:g id="number" example="3">%1$s</xliff:g> ሓዱሽ መልእኽታት</string>
+<plurals name="message_count_notification_overflow">
+<item quantity="one">+  <xliff:g id="number" example="1">%1$s</xliff:g> ካልእ መልእኽቲ"</item>
+<item quantity="other">+  <xliff:g id="number" example="15">%1$s</xliff:g>ካልኦት መልእኽታት"</item>
+</plurals>
+<string name="view_more_conversations">ዚያዳ ዝርርብ ምርኣይ</string>
+<string name="attachment_audio">ድምፂ</string>
+<string name="attachment_slideshow">ስላይድ ምርኢት</string>
+<string name="attachment_video">ቪዲዮ</string>
+<string name="attachment_picture">ምስሊ</string>
+<string name="notification_separator">\u0020\u0020</string>
+<string name="enumeration_comma">,\u0020</string>
+<string name="exceed_editor_size_limitation">ወሰን ፅሑፍ በፂሑ</string>
+<string name="add_top_slide">ስላይድ ናብ ላዕሊ ወስኽ</string>
+<string name="add_bottom_slide">ስላይድ ናብ ታሕቲ ወስኽ</string>
+<string name="sound_category_message_notification_title">መልከታ መልእኽቲ</string>
+<string name="prefDialogTitle_vibrateWhen">ምንቅጥቃጥ</string>
+<plurals name="notification_multiple">
+<item quantity="one">%d መልእኽቲ ምንባብ፡፡</item>
+<item quantity="other">%d መልእኽቲታት ምንባብ፡፡</item>
+</plurals>
+<string name="cell_broadcast">ሴል ብሮድካስት</string>
+<string name="cell_broadcast_title">ስንድኦት መራከቢ ሓፋሽ</string>
+<string name="cell_broadcast_settings">ናይ ሲም ካርድ ንኡስ ብሮድካስት ስንድኦት</string>
+<string name="menu_insert_quick_text">ህፁፅ ፅሑፍ ምእታዉ</string>
+<string name="select_quick_text">ህፁፅ ፅሑፍ ምምራፅ</string>
+<string name="add">ምውሳኽ</string>
+<string name="quick_text_editor">ህፁፅ ፅሑፍ ምእራም</string>
+<string name="modify_successful">ዕዉት ምሕዳስ</string>
+<string name="modify_unsuccessful">ዘይዕዉት ምሕዳስ!</string>
+<string name="delete_successful">ዕዉት ምጥፋእ</string>
+<string name="delete_unsuccessful">ዘይዕዉት ምጥፋእ!</string>
+<string name="add_quick_text_successful">ህፁፅ ፅሑፍ ዕዉት ምውሳክ</string>
+<string name="already_have_quick_text">ቅድም ኢሉ እዚ ህፁፅ ፅሑፍ መልእኽቲ ዝነበረ እዩ!</string>
+</resources>

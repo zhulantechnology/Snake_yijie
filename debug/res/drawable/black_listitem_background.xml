@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by zhangzixiao JBLW-482 20131216 NewFeature:message blacklist -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"
+        android:drawable="@drawable/black_listitem_bg_blue" />
+    <item android:state_pressed="true" android:state_selected="false"
+        android:drawable="@drawable/black_listitem_bg_blue" />
+</selector>

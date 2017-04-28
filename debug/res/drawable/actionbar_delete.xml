@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by zhangzixiao JBLW-482 20131216 NewFeature:message blacklist -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item android:state_enabled="true" android:drawable="@drawable/black_delete" />
+    <item android:state_enabled="false" android:drawable="@drawable/black_delete_disable" />
+    -->
+    <item android:state_enabled="true" android:drawable="@drawable/ic_menu_trash_holo_dark" />
+    <item android:state_enabled="false" android:drawable="@drawable/black_delete_disable" />
+</selector>

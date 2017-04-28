@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add this file : JEYS-57 zhangzixiao 20131226 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+     <Button
+         android:id="@+id/date_text"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:textColor="@color/black"       
+         />
+     <Button
+         android:id="@+id/time_text"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:textColor="@color/black"
+          />
+     <Button
+         android:id="@+id/confirm_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|right"
+         android:gravity="center"
+         android:text="@string/scheduled_msg_finish"
+         android:textColor="@color/black"
+         />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_encoding_automatic">تلقائي</string>
+    <!-- RGK-Feature Signature -->
+    <string name="pref_sms_signature_title">إمضاء الرسائل النصية القصيرة</string>
+    <string name="pref_title_enable_signature">إمضاء الرسائل النصية القصيرة</string>
+    <string name="pref_summary_enable_signature">تم تفعيل توقيع الرسائل القصيرة</string>
+    <string name="pref_summary_disable_signature">إلغاء إمضاء الرسائل النصية</string>
+    <string name="pref_title_edit_signature">تعديل إمضاء الرسائل النصية</string>
+<string name="pref_summary_notification_ringtone1">تعيين نغمة رنين للإشعارات الجديدة لبطاقةSIM1</string>
+<string name="pref_summary_notification_ringtone2">تعيين نغمة رنين للإشعارات الجديدة لبطاقة SIM2</string>
+<string name="pref_encryption_settings_title">تشفير المحادثات</string>
+<string name="pref_summary_enable_encrytpion">تم تمكين تشفير المحادثات</string>
+<string name="pref_summary_disable_encrytpion">تم تعطيل تشفير المحادثات</string>
+<string name="pref_title_enable_encrytpion">تشفير المحادثات</string>
+<string name="pref_title_edit_encrytpion">قم بتعديل كلمة مرور التشفير</string>
+<string name="edit_pwd">قم بتعديل كلمة المرور</string>
+<string name="new_pwd">إنشاء كلمة مرور</string>
+<string name="next">"متابعة"</string>
+<string name="input_pwd">أدخل كلمة السر</string>
+<string name="input_old_pwd">قم بإدخال كلمة المرور القديمة</string>
+<string name="input_new_pwd">قم بإدخال كلمة مرور جديدة</string>
+<string name="input_confirm_pwd">قم بتأكيد كلمة المرور</string>
+<string name="tip_same_pwd">لا يمكن أن تكون كلمة المرور الجديدة نفس كلمة المرور القديمة!</string>
+<string name="tip_not_same_pwd">يجب ان يكون تاكيد كلمة المرور متطابق مع كلمة المرور الجديدة!</string>
+<string name="tip_old_pwd_incorrect">كلمة المرور القديمة غير صحيحة!</string>
+<string name="tip_pwd_incorrect">كلمة المرور غير صحيحة!</string>
+<string name="tip_pwd_change_success">تم تغيير كلمة المرور بنجاح!</string>
+<string name="menu_encryption">"تشفير"</string>
+<string name="menu_decryption">فك تشفير</string>
+<string name="encrypt_first">يرجى التشفير أولا!</string>
+<string name="encrypt_has_alphabet">يجب أن تحتوي كلمة المرور على حرف واحد على الأقل!</string>
+<string name="pref_encoding_7bit">وضع الأبجدية الإفتراضي</string>
+<string name="pref_sms_encoding_title">"ترميز الحروف"</string>
+<string name="pref_sms_encoding_summary">جار تشفير خاصية الرسائل القصيرة</string>
+<string name="pref_sms_encoding_dialog_title">"ترميز الحروف"</string>
+<string name="menu_scheduled_message">رسالة مجدولة</string>
+<string name="scheduled_msg_back">"رجوع"</string>
+<string name="scheduled_msg_next">"التالي"</string>
+<string name="scheduled_msg_finish">"إنهاء"</string>
+<string name="scheduled_message_set_time_error">لا يمكن تحديد الوقت في الماضي، يرجى الاختيار مرة أخرى!</string>
+<string name="pref_blacklist_title">إعدادات القائمة السوداء</string>
+<string name="pref_title_balcklist">قائمة الحظر</string>
+<string name="pref_summary_blacklist">لا تقم باستلام الرسائل المرسلة من الأرقام المدرجة في القائمة السوداء</string>
+<string name="number_editor">تعديل الرقم</string>
+<string name="type_to_number">أكتب الرقم</string>
+<string name="add_successful">تمت الإضافة بنجاح</string>
+<string name="number_cannot_empty">لا يمكن أن يكون الرقم فارغ</string>
+<string name="illeage_number">رقم غير متاح</string>
+<string name="already_have_number">لديك هذا الرقم بالفعل</string>
+<string name="deselect_all">إلغاء تحديد الكل</string>
+<string name="selected">تم التحديد</string>
+<string name="back_to_phone_memory">الرجوع إلى ذاكرة الهاتف</string>
+<string name="no_message">لا توجد رسائل</string>
+<string name="menu_import_export">استيراد/تصدير SMS</string>
+</resources>
